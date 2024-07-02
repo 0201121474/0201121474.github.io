@@ -24,10 +24,8 @@
 <meta property="og:description" content="fNIRS脑成像测量方法及数据分析综述1.fNIRS概念功能性近红外光谱成像（functional Near-Infrared Spectroscopy, fNIRS）是一种非侵入性的脑功能成像技术，近年来在认知神经科学、心理学、教育学和医学等领域得到了广泛应用。fNIRS通过近红外光探测脑组织中的血氧变化，提供与脑活动相关的信息。   fNIRS基于近红外光（650-900 nm）在生物组织中的">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/2024/07/02/fNIRS/fNIRS.assets/image-20240702223229406.png">
-<meta property="og:image" content="https://mmbiz.qpic.cn/mmbiz_png/oevyib3AbOZ0MddmDWu1EgQG8TDneqNWt65ldiaibuK32TvHb9onoUFK9p22SbqFQnPbHtlx5wfGySmTZcHQI0n1A/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1">
-<meta property="og:image" content="https://mmbiz.qpic.cn/mmbiz_png/oevyib3AbOZ0MddmDWu1EgQG8TDneqNWt5pcKicxcQASpbvrWu7z0LsweWEsiaznsKoz2pMNnAMfuicckU4wVeMuYQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1">
 <meta property="article:published_time" content="2024-07-02T13:02:04.327Z">
-<meta property="article:modified_time" content="2024-07-02T14:32:53.587Z">
+<meta property="article:modified_time" content="2024-07-02T15:10:23.376Z">
 <meta property="article:author" content="liubai">
 <meta property="article:tag" content="fNIRS">
 <meta name="twitter:card" content="summary_large_image">
@@ -396,7 +394,7 @@
 <li><ul>
 <li><p><strong>原理：</strong>根据Beer-Lambert定律，将采集的光强度变化转换为光学密度变化。</p>
 </li>
-<li><p><strong>公式：</strong><img src="https://mmbiz.qpic.cn/mmbiz_png/oevyib3AbOZ0MddmDWu1EgQG8TDneqNWt65ldiaibuK32TvHb9onoUFK9p22SbqFQnPbHtlx5wfGySmTZcHQI0n1A/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1" srcset="/img/loading.gif" lazyload alt="图片"></p>
+<li><p><strong>公式：</strong>$ΔOD=-log(I(t)/I_0)$</p>
 <p>其中，I(t)I(t)为某时刻的光强度，𝐼0为基线光强度。</p>
 </li>
 </ul>
@@ -406,8 +404,7 @@
 <li><ul>
 <li><p><strong>修正Beer-Lambert定律：</strong>利用修正后的Beer-Lambert定律计算氧合血红蛋白（HbO）和脱氧血红蛋白（HbR）的浓度变化。</p>
 </li>
-<li><p><strong>公式：</strong><img src="https://mmbiz.qpic.cn/mmbiz_png/oevyib3AbOZ0MddmDWu1EgQG8TDneqNWt5pcKicxcQASpbvrWu7z0LsweWEsiaznsKoz2pMNnAMfuicckU4wVeMuYQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1" srcset="/img/loading.gif" lazyload alt="图片"></p>
-<p>其中，ϵ为吸收系数，d为光程长度，DPF为光程校正因子。</p>
+<li><p><strong>公式：</strong><br>$$<br>Δc=\frac{ΔOD}{ε·d·DPF}<br>$$<br>其中，ϵ为吸收系数，d为光程长度，DPF为光程校正因子。</p>
 </li>
 </ul>
 </li>
@@ -428,6 +425,7 @@
 </ul>
 </li>
 </ol>
+<p>$$<br>Δc=\frac{ΔOD}{ε·d·DPF}<br>$$</p>
 
                 
               </div>
