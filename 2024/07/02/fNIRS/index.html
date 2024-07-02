@@ -16,15 +16,15 @@
   <meta name="author" content="liubai">
   <meta name="keywords" content="">
   
-    <meta name="description" content="环境配置Git下载安装：https:&#x2F;&#x2F;git-scm.com&#x2F; NodeJs下载安装：https:&#x2F;&#x2F;nodejs.org&#x2F;zh-cn&#x2F; Hexo下载安装：  打开官网：https:&#x2F;&#x2F;hexo.io&#x2F;zh-cn&#x2F;index.html  在本地磁盘中：  创建一个hexo文件夹，进入该文件夹 右键-&gt;Git Bash Here-&gt;在git中依次执行以下命令  12345npm ins">
+    <meta name="description" content="fNIRS脑成像测量方法及数据分析综述fNIRS概念功能性近红外光谱成像（functional Near-Infrared Spectroscopy, fNIRS）是一种非侵入性的脑功能成像技术，近年来在认知神经科学、心理学、教育学和医学等领域得到了广泛应用。fNIRS通过近红外光探测脑组织中的血氧变化，提供与脑活动相关的信息。 fNIRS基于近红外光（650-900 nm）在生物组织中的相对透明">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/2024/07/01/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/index.html">
+<meta property="og:url" content="http://example.com/2024/07/02/fNIRS/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="环境配置Git下载安装：https:&#x2F;&#x2F;git-scm.com&#x2F; NodeJs下载安装：https:&#x2F;&#x2F;nodejs.org&#x2F;zh-cn&#x2F; Hexo下载安装：  打开官网：https:&#x2F;&#x2F;hexo.io&#x2F;zh-cn&#x2F;index.html  在本地磁盘中：  创建一个hexo文件夹，进入该文件夹 右键-&gt;Git Bash Here-&gt;在git中依次执行以下命令  12345npm ins">
+<meta property="og:description" content="fNIRS脑成像测量方法及数据分析综述fNIRS概念功能性近红外光谱成像（functional Near-Infrared Spectroscopy, fNIRS）是一种非侵入性的脑功能成像技术，近年来在认知神经科学、心理学、教育学和医学等领域得到了广泛应用。fNIRS通过近红外光探测脑组织中的血氧变化，提供与脑活动相关的信息。 fNIRS基于近红外光（650-900 nm）在生物组织中的相对透明">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-07-01T12:44:38.275Z">
-<meta property="article:modified_time" content="2024-07-01T15:11:43.073Z">
+<meta property="article:published_time" content="2024-07-02T13:02:04.327Z">
+<meta property="article:modified_time" content="2024-07-02T13:13:18.770Z">
 <meta property="article:author" content="liubai">
 <meta name="twitter:card" content="summary_large_image">
   
@@ -207,8 +207,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-07-01 20:44" pubdate>
-          2024年7月1日 晚上
+        <time datetime="2024-07-02 21:02" pubdate>
+          2024年7月2日 晚上
         </time>
       </span>
     
@@ -219,7 +219,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          322 字
+          748 字
         
       </span>
     
@@ -230,7 +230,7 @@
         
         
         
-          3 分钟
+          7 分钟
         
       </span>
     
@@ -272,53 +272,24 @@
             
               <div class="markdown-body">
                 
-                <h3 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h3><p>Git下载安装：<a target="_blank" rel="noopener" href="https://git-scm.com/">https://git-scm.com/</a></p>
-<p>NodeJs下载安装：<a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/">https://nodejs.org/zh-cn/</a></p>
-<p>Hexo下载安装：</p>
-<ul>
-<li><p>打开官网：<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">https://hexo.io/zh-cn/index.html</a></p>
-</li>
-<li><p>在本地磁盘中：</p>
-<ul>
-<li>创建一个hexo文件夹，进入该文件夹</li>
-<li><code>右键</code>-&gt;<code>Git Bash Here</code>-&gt;在git中依次执行以下命令</li>
-</ul>
-<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs mipsasm">npm <span class="hljs-keyword">install </span>hexo-cli -g<br>hexo init <span class="hljs-keyword">blog</span><br><span class="hljs-keyword">cd </span><span class="hljs-keyword">blog</span><br><span class="hljs-keyword">npm </span><span class="hljs-keyword">install</span><br><span class="hljs-keyword">hexo </span>server<br></code></pre></td></tr></table></figure>
-
-
-
-
-</li>
-</ul>
-<p>搭建教程：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1ts4y1f7Gu/?spm_id_from=333.337.search-card.all.click&vd_source=4e3cec6b5cbc24b378fa563c356a3ac1">超详细！0成本搭建个人网站！！【建议收藏】_哔哩哔哩_bilibili</a></p>
-<h3 id="git"><a href="#git" class="headerlink" title="git"></a>git</h3><figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><code class="hljs vala"><span class="hljs-meta"># 查看git账号的名称和邮箱</span><br>git config user.name<br>git config user.email<br><br><span class="hljs-meta"># 配置git账号的名称和邮箱</span><br>git config --global user.name <span class="hljs-string">&quot;账号名称&quot;</span><br>git config --global user.email <span class="hljs-string">&quot;邮箱&quot;</span><br><br><span class="hljs-meta"># 没有ssh密钥：生成ssh密钥</span><br>ssh-keygen -t rsa -C <span class="hljs-string">&quot;你的Git邮箱&quot;</span><br><br>cat ~/.ssh/id_rsa.pub<br>ssh -T git@gitee.com<br><br><span class="hljs-meta"># 将ssh密钥添加到GitHub账号：在C盘/Users/你自己的用户名/.ssh文件夹下，有id_rsa、id_rsa.pub两个文件，使用notepad++等工具打开id_rsa.pub，复制其中的内容，千万不要改变其中的内容</span><br><span class="hljs-meta"># 在GitHub账号中添加ssh密钥</span><br><span class="hljs-meta"># 修改_config.yml文件：添加以下代码</span><br>deploy:<br>  type: git<br>  repo: git@github.com:<span class="hljs-number">0201121474</span>/<span class="hljs-number">0201121474.</span>github.io.git # 仓库的ssh的地址<br>  branch: master<br></code></pre></td></tr></table></figure>
-
-
-
-
-<p>修改博客主题</p>
-<ul>
-<li>打开Hexo官网：<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">https://hexo.io/zh-cn/index.html</a></li>
-<li>首页底部有主题，点击进入</li>
-</ul>
-<p>部署</p>
-<figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs vala"><br>npm install hexo-deployer-git --save<br><br><span class="hljs-meta"># 生成网页内容</span><br>hexo g<br><br><span class="hljs-meta"># 本地预览博客</span><br>hexo s<br><br><span class="hljs-meta"># 部署博客</span><br>hexo d<br><br><br></code></pre></td></tr></table></figure>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                <h1 id="fNIRS脑成像测量方法及数据分析综述"><a href="#fNIRS脑成像测量方法及数据分析综述" class="headerlink" title="fNIRS脑成像测量方法及数据分析综述"></a>fNIRS脑成像测量方法及数据分析综述</h1><h2 id="fNIRS概念"><a href="#fNIRS概念" class="headerlink" title="fNIRS概念"></a>fNIRS概念</h2><p><strong>功能性近红外光谱成像（functional Near-Infrared Spectroscopy, fNIRS）</strong>是一种非侵入性的脑功能成像技术，近年来在认知神经科学、心理学、教育学和医学等领域得到了广泛应用。fNIRS通过近红外光探测脑组织中的血氧变化，提供与脑活动相关的信息。</p>
+<p>fNIRS基于近红外光（650-900 nm）在生物组织中的相对透明性，利用近红外光照射头皮，检测反射或透射光的变化，以推测脑血氧浓度的变化，其原理基于近红外光在生物组织中的光学特性和血液中的血红蛋白的吸光特性。<strong>大脑活动时，局部血氧饱和度会发生改变，fNIRS通过监测这种变化来间接测量脑功能活动。</strong></p>
+<ol>
+<li><strong>近红外光的透射和散射</strong>：近红外光（650-900 nm）可以穿透生物组织，包括头皮、颅骨和脑组织。fNIRS利用这种特性，将近红外光照射到头皮上，通过散射和透射光的检测，获取脑组织的信息。</li>
+<li><strong>血红蛋白的吸光特性</strong>：血液中的血红蛋白有两种状态：氧合血红蛋白（HbO）和脱氧血红蛋白（HbR），它们在不同波长的近红外光下具有不同的吸光特性。通过测量这些吸收光谱的变化，fNIRS可以推算出局部脑血氧饱和度的变化。</li>
+<li><strong>光路与检测</strong>：fNIRS系统通常包括光源（如激光或LED）和探测器（光电二极管）。光源发出的近红外光通过光纤传导到头皮，部分光透过颅骨和脑组织，被组织散射和吸收后，剩余的光被探测器接收。探测器捕捉到的信号反映了血红蛋白的浓度变化。</li>
+<li><strong>数据处理</strong>：检测到的光信号经过数据处理，可以计算出HbO和HbR的浓度变化。这些浓度变化与脑活动有关，因为当某一脑区活跃时，该区域的血液供应会增加，导致HbO增加和HbR减少。</li>
+</ol>
+<h4 id="可测量的数据"><a href="#可测量的数据" class="headerlink" title="可测量的数据"></a><strong>可测量的数据</strong></h4><blockquote>
+<ol>
+<li>氧合血红蛋白（HbO）浓度变化：当脑区域活动增加时，局部血流量和血氧供应增加，导致HbO浓度上升。fNIRS可以实时监测这种变化。</li>
+<li>脱氧血红蛋白（HbR）浓度变化：相应地，由于氧气被脑细胞利用，HbR浓度会减少。fNIRS同样可以监测这种变化。</li>
+<li>总血红蛋白（HbT）浓度变化：这是HbO和HbR之和，反映了局部血容量的变化。总血红蛋白浓度的变化可以提供关于血流量变化的附加信息。</li>
+<li>血氧饱和度（SO2）：这是HbO在总血红蛋白中的比例（HbO/(HbO+HbR)），可以反映局部脑组织的氧合状态。</li>
+</ol>
+</blockquote>
+<p>常见fNIRS测量方法</p>
+<figure class="highlight subunit"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs subunit">categories:<br>  - Brain<br><span class="hljs-keyword">tags:</span><br>  - fNIRS<br></code></pre></td></tr></table></figure>
 
                 
               </div>
@@ -337,7 +308,7 @@
   <div class="license-box my-3">
     <div class="license-title">
       <div></div>
-      <div>http://example.com/2024/07/01/博客搭建/</div>
+      <div>http://example.com/2024/07/02/fNIRS/</div>
     </div>
     <div class="license-meta">
       
@@ -349,7 +320,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2024年7月1日</div>
+          <div>2024年7月2日</div>
         </div>
       
       
@@ -381,18 +352,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/07/02/fNIRS/" title="">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile"></span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2021/02/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" title="我的第一篇博客文章">
-                        <span class="hidden-mobile">我的第一篇博客文章</span>
+                      <a href="/2024/07/01/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" title="">
+                        <span class="hidden-mobile"></span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
