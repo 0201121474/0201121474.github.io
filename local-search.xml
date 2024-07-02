@@ -4,13 +4,25 @@
   
   
   <entry>
-    <title></title>
+    <title>fNIRS脑成像测量方法及数据分析综述</title>
     <link href="/2024/07/02/fNIRS/"/>
     <url>/2024/07/02/fNIRS/</url>
     
-    <content type="html"><![CDATA[<h1 id="fNIRS脑成像测量方法及数据分析综述"><a href="#fNIRS脑成像测量方法及数据分析综述" class="headerlink" title="fNIRS脑成像测量方法及数据分析综述"></a>fNIRS脑成像测量方法及数据分析综述</h1><h2 id="fNIRS概念"><a href="#fNIRS概念" class="headerlink" title="fNIRS概念"></a>fNIRS概念</h2><p><strong>功能性近红外光谱成像（functional Near-Infrared Spectroscopy, fNIRS）</strong>是一种非侵入性的脑功能成像技术，近年来在认知神经科学、心理学、教育学和医学等领域得到了广泛应用。fNIRS通过近红外光探测脑组织中的血氧变化，提供与脑活动相关的信息。</p><p>fNIRS基于近红外光（650-900 nm）在生物组织中的相对透明性，利用近红外光照射头皮，检测反射或透射光的变化，以推测脑血氧浓度的变化，其原理基于近红外光在生物组织中的光学特性和血液中的血红蛋白的吸光特性。<strong>大脑活动时，局部血氧饱和度会发生改变，fNIRS通过监测这种变化来间接测量脑功能活动。</strong></p><ol><li><strong>近红外光的透射和散射</strong>：近红外光（650-900 nm）可以穿透生物组织，包括头皮、颅骨和脑组织。fNIRS利用这种特性，将近红外光照射到头皮上，通过散射和透射光的检测，获取脑组织的信息。</li><li><strong>血红蛋白的吸光特性</strong>：血液中的血红蛋白有两种状态：氧合血红蛋白（HbO）和脱氧血红蛋白（HbR），它们在不同波长的近红外光下具有不同的吸光特性。通过测量这些吸收光谱的变化，fNIRS可以推算出局部脑血氧饱和度的变化。</li><li><strong>光路与检测</strong>：fNIRS系统通常包括光源（如激光或LED）和探测器（光电二极管）。光源发出的近红外光通过光纤传导到头皮，部分光透过颅骨和脑组织，被组织散射和吸收后，剩余的光被探测器接收。探测器捕捉到的信号反映了血红蛋白的浓度变化。</li><li><strong>数据处理</strong>：检测到的光信号经过数据处理，可以计算出HbO和HbR的浓度变化。这些浓度变化与脑活动有关，因为当某一脑区活跃时，该区域的血液供应会增加，导致HbO增加和HbR减少。</li></ol><h4 id="可测量的数据"><a href="#可测量的数据" class="headerlink" title="可测量的数据"></a><strong>可测量的数据</strong></h4><blockquote><ol><li>氧合血红蛋白（HbO）浓度变化：当脑区域活动增加时，局部血流量和血氧供应增加，导致HbO浓度上升。fNIRS可以实时监测这种变化。</li><li>脱氧血红蛋白（HbR）浓度变化：相应地，由于氧气被脑细胞利用，HbR浓度会减少。fNIRS同样可以监测这种变化。</li><li>总血红蛋白（HbT）浓度变化：这是HbO和HbR之和，反映了局部血容量的变化。总血红蛋白浓度的变化可以提供关于血流量变化的附加信息。</li><li>血氧饱和度（SO2）：这是HbO在总血红蛋白中的比例（HbO/(HbO+HbR)），可以反映局部脑组织的氧合状态。</li></ol></blockquote><p>常见fNIRS测量方法</p><figure class="highlight subunit"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs subunit">categories:<br>  - Brain<br><span class="hljs-keyword">tags:</span><br>  - fNIRS<br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a></h1><h1 id="fNIRS脑成像测量方法及数据分析综述"><a href="#fNIRS脑成像测量方法及数据分析综述" class="headerlink" title="fNIRS脑成像测量方法及数据分析综述"></a>fNIRS脑成像测量方法及数据分析综述</h1><h2 id="fNIRS概念"><a href="#fNIRS概念" class="headerlink" title="fNIRS概念"></a>fNIRS概念</h2><p><strong>功能性近红外光谱成像（functional Near-Infrared Spectroscopy, fNIRS）</strong>是一种非侵入性的脑功能成像技术，近年来在认知神经科学、心理学、教育学和医学等领域得到了广泛应用。fNIRS通过近红外光探测脑组织中的血氧变化，提供与脑活动相关的信息。</p><p>fNIRS基于近红外光（650-900 nm）在生物组织中的相对透明性，利用近红外光照射头皮，检测反射或透射光的变化，以推测脑血氧浓度的变化，其原理基于近红外光在生物组织中的光学特性和血液中的血红蛋白的吸光特性。<strong>大脑活动时，局部血氧饱和度会发生改变，fNIRS通过监测这种变化来间接测量脑功能活动。</strong></p><ol><li><strong>近红外光的透射和散射</strong>：近红外光（650-900 nm）可以穿透生物组织，包括头皮、颅骨和脑组织。fNIRS利用这种特性，将近红外光照射到头皮上，通过散射和透射光的检测，获取脑组织的信息。</li><li><strong>血红蛋白的吸光特性</strong>：血液中的血红蛋白有两种状态：氧合血红蛋白（HbO）和脱氧血红蛋白（HbR），它们在不同波长的近红外光下具有不同的吸光特性。通过测量这些吸收光谱的变化，fNIRS可以推算出局部脑血氧饱和度的变化。</li><li><strong>光路与检测</strong>：fNIRS系统通常包括光源（如激光或LED）和探测器（光电二极管）。光源发出的近红外光通过光纤传导到头皮，部分光透过颅骨和脑组织，被组织散射和吸收后，剩余的光被探测器接收。探测器捕捉到的信号反映了血红蛋白的浓度变化。</li><li><strong>数据处理</strong>：检测到的光信号经过数据处理，可以计算出HbO和HbR的浓度变化。这些浓度变化与脑活动有关，因为当某一脑区活跃时，该区域的血液供应会增加，导致HbO增加和HbR减少。</li></ol><h4 id="可测量的数据"><a href="#可测量的数据" class="headerlink" title="可测量的数据"></a><strong>可测量的数据</strong></h4><blockquote><ol><li>氧合血红蛋白（HbO）浓度变化：当脑区域活动增加时，局部血流量和血氧供应增加，导致HbO浓度上升。fNIRS可以实时监测这种变化。</li><li>脱氧血红蛋白（HbR）浓度变化：相应地，由于氧气被脑细胞利用，HbR浓度会减少。fNIRS同样可以监测这种变化。</li><li>总血红蛋白（HbT）浓度变化：这是HbO和HbR之和，反映了局部血容量的变化。总血红蛋白浓度的变化可以提供关于血流量变化的附加信息。</li><li>血氧饱和度（SO2）：这是HbO在总血红蛋白中的比例（HbO/(HbO+HbR)），可以反映局部脑组织的氧合状态。</li></ol></blockquote><p>常见fNIRS测量方法</p><figure class="highlight subunit"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs subunit">categories:<br>  - Brain<br><span class="hljs-keyword">tags:</span><br>  - fNIRS<br></code></pre></td></tr></table></figure>]]></content>
     
     
+    <categories>
+      
+      <category>Brain</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>fNIRS</tag>
+      
+    </tags>
     
   </entry>
   
